@@ -1,0 +1,12 @@
+LOCAL:
+  HOST: localhost
+  PORT: 9000
+  RELOAD: true
+  WORKER: false
+
+DEV:
+  HOST: 
+  PORT: 80
+  RELOAD: false
+  WORKER: true
+

@@ -1,0 +1,22 @@
+LOCAL:
+  DB:
+    USERNAME: postgres
+    PASSWORD: root
+    HOST: localhost
+    PORT: 5432
+    NAME: fileshare_db
+  LOG:
+    LOG_PATH: D:\storage\logs
+
+DEV:
+  DB:
+    USERNAME: postgres
+    PASSWORD: root
+    HOST: 10.0.1.5
+    PORT: 5432
+    NAME: fileshare_db
+  LOG:
+    LOG_PATH: /home/opc/
+ 
+
+
