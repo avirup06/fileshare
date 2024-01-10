@@ -36,10 +36,11 @@ def get_file_service(session):
 async def check(
         current_user = Depends(JWTBearer())
     ):
-    user_id = current_user.get('id')
+    # user_id = current_user.get('id')
     return response_helper(
         data={
-            'id': user_id
+            # 'id': user_id
+            "id": "123"
         },
         msg='Success',
         status_code=200
