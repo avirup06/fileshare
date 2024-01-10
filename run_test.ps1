@@ -1,3 +1,5 @@
-Remove-Item tests\.test.txt
-Get-Date >> .\tests\.test.txt
-python -m pytest tests --cov=fileshare >> .\tests\.test.txt
+# New-Item -ItemType File -Path tests\test_database.db
+Remove-Item .test.txt
+Get-Date >> .test.txt
+python -m pytest tests --cov=fileshare >> .test.txt
+Remove-Item tests\test_database.db
