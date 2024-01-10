@@ -13,7 +13,6 @@ fastapi = {extras = ["all"], version = "^0.103.2"}
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 python-jose = {extras = ["cryptography"], version = "^3.3.0"}
 pyjwt = "^2.8.0"
-pytest = "7.4.3"
 pydantic = "^2.5.1"
 requests = "^2.31.0"
 psycopg2 = "^2.9.9"
@@ -25,6 +24,10 @@ psutil = "^5.9.7"
 
 [tool.poetry.scripts]                                                           
 server = "scripts.server:start"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.4"
+pytest-cov = "^4.1.0"
 
 [build-system]
 requires = ["poetry-core"]
